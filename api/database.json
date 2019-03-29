@@ -1,0 +1,61 @@
+{
+    "Employees": [
+        {
+            "employeeId": 1,
+            "name": "Frank",
+            "departmentId": 3,
+            "computerId": 2
+        },
+        {
+            "employeeId": 2,
+            "name": "Sarah",
+            "departmentId": 2,
+            "computerId": 1
+        },
+        {
+            "employeeId": 3,
+            "name": "Hannah",
+            "departmentId": 1,
+            "computerId": 3
+        }
+    ],
+    
+     "Departments": [
+        {
+            "departmendId": 1,
+            "department": "Sales"
+        },
+        {
+            "departmendId": 2,
+            "department": "Management"
+        },
+        {
+            "departmendId": 3,
+            "department": "Accounting"
+        }
+    ],
+    
+     "Computers": [
+        {
+            "computerId": 1,
+            "computerNumber": "One"
+        },
+        {
+            "computerId": 2,
+            "computerNumber": "Two"
+        },
+        {
+            "computerId": 3,
+            "computerNumber": "Three"
+        }
+    ],
+    
+     "employeeDatabase": [
+        {
+            "employee": "Employees",
+            "department": "Departments",
+            "computers": "Computers"
+        }
+    ]
+}
+
