@@ -1,60 +1,51 @@
 {
-    "Employees": [
+     "departments": [
         {
-            "employeeId": 1,
+            "id": 1,
+            "dept": "Sales"
+        },
+        {
+            "id": 2,
+            "dept": "Management"
+        },
+        {
+            "id": 3,
+            "dept": "Accounting"
+        }
+    ],
+    
+     "computers": [
+        {
+            "id": 1,
+            "computerType": "a notepad"
+        },
+        {
+            "id": 2,
+            "computerType": "a typewriter"
+        },
+        {
+            "id": 3,
+            "computerType": "their brain"
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
             "name": "Frank",
             "departmentId": 3,
             "computerId": 2
         },
         {
-            "employeeId": 2,
+            "id": 2,
             "name": "Sarah",
             "departmentId": 2,
             "computerId": 1
         },
         {
-            "employeeId": 3,
+            "id": 3,
             "name": "Hannah",
             "departmentId": 1,
             "computerId": 3
-        }
-    ],
-    
-     "Departments": [
-        {
-            "departmendId": 1,
-            "department": "Sales"
-        },
-        {
-            "departmendId": 2,
-            "department": "Management"
-        },
-        {
-            "departmendId": 3,
-            "department": "Accounting"
-        }
-    ],
-    
-     "Computers": [
-        {
-            "computerId": 1,
-            "computerNumber": "One"
-        },
-        {
-            "computerId": 2,
-            "computerNumber": "Two"
-        },
-        {
-            "computerId": 3,
-            "computerNumber": "Three"
-        }
-    ],
-    
-     "employeeDatabase": [
-        {
-            "employee": "Employees",
-            "department": "Departments",
-            "computers": "Computers"
         }
     ]
 }
