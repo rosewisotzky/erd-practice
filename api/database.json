@@ -1,0 +1,52 @@
+{
+     "departments": [
+        {
+            "id": 1,
+            "dept": "Sales"
+        },
+        {
+            "id": 2,
+            "dept": "Management"
+        },
+        {
+            "id": 3,
+            "dept": "Accounting"
+        }
+    ],
+    
+     "computers": [
+        {
+            "id": 1,
+            "computerType": "a notepad"
+        },
+        {
+            "id": 2,
+            "computerType": "a typewriter"
+        },
+        {
+            "id": 3,
+            "computerType": "their brain"
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "name": "Frank",
+            "departmentId": 3,
+            "computerId": 2
+        },
+        {
+            "id": 2,
+            "name": "Sarah",
+            "departmentId": 2,
+            "computerId": 1
+        },
+        {
+            "id": 3,
+            "name": "Hannah",
+            "departmentId": 1,
+            "computerId": 3
+        }
+    ]
+}
+

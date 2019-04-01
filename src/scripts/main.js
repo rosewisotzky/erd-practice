@@ -1,0 +1,2 @@
+// In my main.js, I am calling my getData function from apiManager.js which returns my parsed array of objects. Then, I am passing the JavaScript array from getData into my createHTML function which tells it where to grab the data from.
+getData().then(parsedArray => createHTML(parsedArray));
